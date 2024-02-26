@@ -1,5 +1,15 @@
 # conditional-rendering
 
+## Update: useState features, with conditional rendering
+<img width="564" alt="Screenshot 2024-02-26 at 7 51 02 AM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRenderingAndUseState/assets/130514366/ad98c19f-6d8b-4b56-994d-f64add90c140">
+
+<img width="507" alt="Screenshot 2024-02-26 at 7 51 09 AM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRenderingAndUseState/assets/130514366/9b556d39-6213-4b49-9739-d2e98727cec5">
+
+- Real-time clock added, rendered each second with useState and `setInterval`
+- Button added to toggle the useState hook for userIsRegistered. The `state[1]` method calls the toggle of `state[0]`, `userIsRegistered`, and uses conditional rendering to change the layout. An h1 also toggles it's contents, using the **ternary** operator, to communicate the state of `userIsRegistered`.
+
+*See `src/components/App.jsx` for the **useState** and **ternary** opeartor logic for these features*
+
 ## Rendering a form based on `userIsRegistered`
 Utilizing ***ternary*** and ***AND*** inline operators
 
