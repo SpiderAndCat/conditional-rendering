@@ -1,5 +1,7 @@
-# conditional-rendering
+# conditional-rendering with useState hooks
 
+## Update: now a live demo 
+-> https://spiderandcat.github.io/reactBasicsDemo_conditionalRenderingAndUseState/
 ## Update: useState features, with conditional rendering
 <img width="564" alt="Screenshot 2024-02-26 at 7 51 02 AM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRenderingAndUseState/assets/130514366/ad98c19f-6d8b-4b56-994d-f64add90c140">
 
