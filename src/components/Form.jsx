@@ -1,7 +1,7 @@
 import React from "react";
 import Input from "./Input.jsx";
 
-function Login() {
+function Form() {
   return (
       <form className="form">
         <Input type="text" placeholder="Username"/>
@@ -12,4 +12,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Form;
