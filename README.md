@@ -1,6 +1,18 @@
 # conditional-rendering
 
-## The boring, but essential, basics
+## Rendering a form based on `userIsRegistered`
+Utilizing ***ternary*** and ***AND*** inline operators
+
+<img width="1397" alt="Screenshot 2024-02-25 at 7 59 11 PM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRendering/assets/130514366/4d2e4579-eb26-4f8b-be62-0ad2fe74b0f5">
+
+As seen above, when `userIsRegistered` in `App.jsx`, a **Login** form will render from `Form.jsx`
+
+<img width="1392" alt="Screenshot 2024-02-25 at 7 58 54 PM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRendering/assets/130514366/d1351d92-7bcf-44f0-a3fb-91d3b7d5e1b7">
+
+In the second figure, when `userIsRegistered` is `false` in `App.jsx`, a **Register** form will render from `Form.jsx`
+
+
+## BONUS: Insight to the boring, but essential, basics
 <img width="761" alt="Screenshot 2024-02-25 at 9 05 18 AM" src="https://github.com/SpiderAndCat/reactBasicsDemo_conditionalRendering/assets/130514366/d0092f1a-261f-4033-a52b-a674da6fc1dc">
 
 Above is the code for the rendered App component. It contains headers and a Login form that are conditionally rendered.
